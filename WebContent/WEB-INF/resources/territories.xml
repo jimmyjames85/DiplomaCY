@@ -1,0 +1,1461 @@
+<?xml version="1.0"?>
+<territories>
+	<territory name="ADR">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">ION</neighbor>
+			<neighbor army="false" fleet="true">APU</neighbor>
+			<neighbor army="false" fleet="true">VEN</neighbor>
+			<neighbor army="false" fleet="true">TRI</neighbor>
+			<neighbor army="false" fleet="true">ALB</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="AEG">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">ION</neighbor>
+			<neighbor army="false" fleet="true">GRE</neighbor>
+			<neighbor army="false" fleet="true">BULS</neighbor>
+			<neighbor army="false" fleet="true">CON</neighbor>
+			<neighbor army="false" fleet="true">SMY</neighbor>
+			<neighbor army="false" fleet="true">EAS</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="ALB">
+		<country>AUS</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">ION</neighbor>
+			<neighbor army="false" fleet="true">ADR</neighbor>
+			<neighbor army="true" fleet="true">TRI</neighbor>
+			<neighbor army="true" fleet="false">SER</neighbor>
+			<neighbor army="true" fleet="true">GRE</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="ANK">
+		<country>TUR</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">CON</neighbor>
+			<neighbor army="false" fleet="true">BLA</neighbor>
+			<neighbor army="true" fleet="true">ARM</neighbor>
+			<neighbor army="true" fleet="false">SMY</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="APU">
+		<country>ITA</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">VEN</neighbor>
+			<neighbor army="true" fleet="false">ROM</neighbor>
+			<neighbor army="true" fleet="true">NAP</neighbor>
+			<neighbor army="false" fleet="true">ION</neighbor>
+			<neighbor army="false" fleet="true">ADR</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="ARM">
+		<country>TUR</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">SEV</neighbor>
+			<neighbor army="false" fleet="true">BLA</neighbor>
+			<neighbor army="true" fleet="true">ANK</neighbor>
+			<neighbor army="true" fleet="false">SMY</neighbor>
+			<neighbor army="true" fleet="false">SYR</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BAL">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">DEN</neighbor>
+			<neighbor army="false" fleet="true">SWE</neighbor>
+			<neighbor army="false" fleet="true">BOT</neighbor>
+			<neighbor army="false" fleet="true">LVN</neighbor>
+			<neighbor army="false" fleet="true">PRU</neighbor>
+			<neighbor army="false" fleet="true">BER</neighbor>
+			<neighbor army="false" fleet="true">KIE</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BAR">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">STPN</neighbor>
+			<neighbor army="false" fleet="true">NWY</neighbor>
+			<neighbor army="false" fleet="true">NRG</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BEL">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">ENG</neighbor>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+			<neighbor army="true" fleet="true">HOL</neighbor>
+			<neighbor army="true" fleet="false">RUH</neighbor>
+			<neighbor army="true" fleet="false">BUR</neighbor>
+			<neighbor army="true" fleet="true">PIC</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BER">
+		<country>GER</country>
+		<supply>coast</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">KIE</neighbor>
+			<neighbor army="false" fleet="true">BAL</neighbor>
+			<neighbor army="true" fleet="true">PRU</neighbor>
+			<neighbor army="true" fleet="false">SIL</neighbor>
+			<neighbor army="true" fleet="false">MUN</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BLA">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">SEV</neighbor>
+			<neighbor army="false" fleet="true">ARM</neighbor>
+			<neighbor army="false" fleet="true">ANK</neighbor>
+			<neighbor army="false" fleet="true">CON</neighbor>
+			<neighbor army="false" fleet="true">BULE</neighbor>
+			<neighbor army="false" fleet="true">RUM</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BOH">
+		<country>AUS</country>
+		<supply>false</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">MUN</neighbor>
+			<neighbor army="true" fleet="false">SIL</neighbor>
+			<neighbor army="true" fleet="false">GAL</neighbor>
+			<neighbor army="true" fleet="false">VIE</neighbor>
+			<neighbor army="true" fleet="false">TYR</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BRE">
+		<country>FRA</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">ENG</neighbor>
+			<neighbor army="true" fleet="true">PIC</neighbor>
+			<neighbor army="true" fleet="false">PAR</neighbor>
+			<neighbor army="true" fleet="true">GAS</neighbor>
+			<neighbor army="false" fleet="true">MID</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BUD">
+		<country>AUS</country>
+		<supply>true</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">GAL</neighbor>
+			<neighbor army="true" fleet="false">VIE</neighbor>
+			<neighbor army="true" fleet="false">TRI</neighbor>
+			<neighbor army="true" fleet="false">SER</neighbor>
+			<neighbor army="true" fleet="false">RUM</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BUL">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">CON</neighbor>
+			<neighbor army="true" fleet="false">GRE</neighbor>
+			<neighbor army="true" fleet="false">SER</neighbor>
+			<neighbor army="true" fleet="false">RUM</neighbor>
+		</neighbors>
+		<exclusives>
+			<exclusive>BULE</exclusive>
+			<exclusive>BULS</exclusive>
+		</exclusives>
+	</territory>
+	<territory name="BULE">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">RUM</neighbor>
+			<neighbor army="false" fleet="true">BLA</neighbor>
+			<neighbor army="false" fleet="true">CON</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BULS">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">CON</neighbor>
+			<neighbor army="false" fleet="true">AEG</neighbor>
+			<neighbor army="false" fleet="true">GRE</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BUR">
+		<country>FRA</country>
+		<supply>false</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">BEL</neighbor>
+			<neighbor army="true" fleet="false">RUH</neighbor>
+			<neighbor army="true" fleet="false">MUN</neighbor>
+			<neighbor army="true" fleet="false">SWI</neighbor>
+			<neighbor army="true" fleet="false">MAR</neighbor>
+			<neighbor army="true" fleet="false">GAS</neighbor>
+			<neighbor army="true" fleet="false">PAR</neighbor>
+			<neighbor army="true" fleet="false">PIC</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="CLY">
+		<country>ENG</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NAT</neighbor>
+			<neighbor army="false" fleet="true">NRG</neighbor>
+			<neighbor army="true" fleet="true">EDI</neighbor>
+			<neighbor army="true" fleet="true">LVP</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="CON">
+		<country>TUR</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">BUL</neighbor>
+			<neighbor army="false" fleet="true">BULE</neighbor>
+			<neighbor army="false" fleet="true">BULS</neighbor>
+			<neighbor army="false" fleet="true">BLA</neighbor>
+			<neighbor army="false" fleet="true">AEG</neighbor>
+			<neighbor army="true" fleet="true">ANK</neighbor>
+			<neighbor army="true" fleet="true">SMY</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="DEN">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">SWE</neighbor>
+			<neighbor army="false" fleet="true">SKA</neighbor>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+			<neighbor army="false" fleet="true">HEL</neighbor>
+			<neighbor army="true" fleet="true">KIE</neighbor>
+			<neighbor army="false" fleet="true">BAL</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="EAS">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">AEG</neighbor>
+			<neighbor army="false" fleet="true">SMY</neighbor>
+			<neighbor army="false" fleet="true">SYR</neighbor>
+			<neighbor army="false" fleet="true">ION</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="EDI">
+		<country>ENG</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NRG</neighbor>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+			<neighbor army="true" fleet="true">YOR</neighbor>
+			<neighbor army="true" fleet="false">LVP</neighbor>
+			<neighbor army="true" fleet="true">CLY</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="ENG">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">IRI</neighbor>
+			<neighbor army="false" fleet="true">WAL</neighbor>
+			<neighbor army="false" fleet="true">LON</neighbor>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+			<neighbor army="false" fleet="true">BEL</neighbor>
+			<neighbor army="false" fleet="true">PIC</neighbor>
+			<neighbor army="false" fleet="true">BRE</neighbor>
+			<neighbor army="false" fleet="true">MID</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="FIN">
+		<country>RUS</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">NWY</neighbor>
+			<neighbor army="true" fleet="true">SWE</neighbor>
+			<neighbor army="false" fleet="true">BOT</neighbor>
+			<neighbor>STP</neighbor>
+			<neighbor army="false" fleet="true">SPAS</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="GAL">
+		<country>AUS</country>
+		<supply>false</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">SIL</neighbor>
+			<neighbor army="true" fleet="false">WAR</neighbor>
+			<neighbor army="true" fleet="false">UKR</neighbor>
+			<neighbor army="true" fleet="false">RUM</neighbor>
+			<neighbor army="true" fleet="false">BUD</neighbor>
+			<neighbor army="true" fleet="false">BOH</neighbor>
+			<neighbor army="true" fleet="false">VIE</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="GAS">
+		<country>FRA</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">BRE</neighbor>
+			<neighbor army="true" fleet="false">PAR</neighbor>
+			<neighbor army="true" fleet="false">BUR</neighbor>
+			<neighbor army="true" fleet="false">MAR</neighbor>
+			<neighbor army="true" fleet="false">SPA</neighbor>
+			<neighbor army="false" fleet="true">SPAN</neighbor>
+			<neighbor army="false" fleet="true">MID</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="GRE">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">ALB</neighbor>
+			<neighbor army="true" fleet="false">SER</neighbor>
+			<neighbor army="true" fleet="false">BUL</neighbor>
+			<neighbor army="false" fleet="true">BULS</neighbor>
+			<neighbor army="false" fleet="true">AEG</neighbor>
+			<neighbor army="false" fleet="true">ION</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="GOL">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">MAR</neighbor>
+			<neighbor army="false" fleet="true">SPAS</neighbor>
+			<neighbor army="false" fleet="true">WES</neighbor>
+			<neighbor army="false" fleet="true">TYN</neighbor>
+			<neighbor army="false" fleet="true">PIE</neighbor>
+			<neighbor army="false" fleet="true">TUS</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="BOT">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">SWE</neighbor>
+			<neighbor army="false" fleet="true">FIN</neighbor>
+			<neighbor army="false" fleet="true">STPS</neighbor>
+			<neighbor army="false" fleet="true">LVN</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="HEL">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">HOL</neighbor>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+			<neighbor army="false" fleet="true">DEN</neighbor>
+			<neighbor army="false" fleet="true">KIE</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="HOL">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">BEL</neighbor>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+			<neighbor army="false" fleet="true">HEL</neighbor>
+			<neighbor army="true" fleet="true">KIE</neighbor>
+			<neighbor army="true" fleet="false">RUH</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="ION">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">TUN</neighbor>
+			<neighbor army="false" fleet="true">NAP</neighbor>
+			<neighbor army="false" fleet="true">APU</neighbor>
+			<neighbor army="false" fleet="true">ADR</neighbor>
+			<neighbor army="false" fleet="true">ALB</neighbor>
+			<neighbor army="false" fleet="true">GRE</neighbor>
+			<neighbor army="false" fleet="true">AEG</neighbor>
+			<neighbor army="false" fleet="true">EAS</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="IRE">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>land</type>
+		<passable>
+			<army>false</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="false">IRI</neighbor>
+			<neighbor army="false" fleet="false">NAT</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="IRI">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NAT</neighbor>
+			<neighbor army="false" fleet="true">LVP</neighbor>
+			<neighbor army="false" fleet="true">WAL</neighbor>
+			<neighbor army="false" fleet="true">ENG</neighbor>
+			<neighbor army="false" fleet="true">MID</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="KIE">
+		<country>GER</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">HOL</neighbor>
+			<neighbor army="false" fleet="true">HEL</neighbor>
+			<neighbor army="true" fleet="true">DEN</neighbor>
+			<neighbor army="true" fleet="true">BER</neighbor>
+			<neighbor army="true" fleet="false">MUN</neighbor>
+			<neighbor army="true" fleet="false">RUH</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="LVP">
+		<country>ENG</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NAT</neighbor>
+			<neighbor army="true" fleet="true">CLY</neighbor>
+			<neighbor army="true" fleet="false">EDI</neighbor>
+			<neighbor army="true" fleet="false">YOR</neighbor>
+			<neighbor army="true" fleet="true">WAL</neighbor>
+			<neighbor army="false" fleet="true">IRI</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="LVN">
+		<country>RUS</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">BAL</neighbor>
+			<neighbor army="false" fleet="true">BOT</neighbor>
+			<neighbor army="true" fleet="false">MOS</neighbor>
+			<neighbor army="true" fleet="false">WAR</neighbor>
+			<neighbor army="true" fleet="true">PRU</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="LON">
+		<country>ENG</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+			<neighbor army="false" fleet="true">ENG</neighbor>
+			<neighbor army="true" fleet="true">WAL</neighbor>
+			<neighbor army="true" fleet="true">YOR</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="MAR">
+		<country>FRA</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">SPA</neighbor>
+			<neighbor army="false" fleet="true">SPAN</neighbor>
+			<neighbor army="true" fleet="false">GAS</neighbor>
+			<neighbor army="true" fleet="false">BUR</neighbor>
+			<neighbor army="true" fleet="true">PIE</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="MID">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NAT</neighbor>
+			<neighbor army="false" fleet="true">IRI</neighbor>
+			<neighbor army="false" fleet="true">ENG</neighbor>
+			<neighbor army="false" fleet="true">BRE</neighbor>
+			<neighbor army="false" fleet="true">GAS</neighbor>
+			<neighbor army="false" fleet="true">SPAN</neighbor>
+			<neighbor army="false" fleet="true">SPAS</neighbor>
+			<neighbor army="false" fleet="true">POR</neighbor>
+			<neighbor army="false" fleet="true">WES</neighbor>
+			<neighbor army="false" fleet="true">NAF</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="MOS">
+		<country>RUS</country>
+		<supply>true</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">LVN</neighbor>
+			<neighbor army="true" fleet="false">STP</neighbor>
+			<neighbor army="true" fleet="false">WAR</neighbor>
+			<neighbor army="true" fleet="false">UKR</neighbor>
+			<neighbor army="true" fleet="false">SEV</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="MUN">
+		<country>GER</country>
+		<supply>true</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">KIE</neighbor>
+			<neighbor army="true" fleet="false">BER</neighbor>
+			<neighbor army="true" fleet="false">SIL</neighbor>
+			<neighbor army="true" fleet="false">BOH</neighbor>
+			<neighbor army="true" fleet="false">TYR</neighbor>
+			<neighbor army="true" fleet="false">BUR</neighbor>
+			<neighbor army="true" fleet="false">RUH</neighbor>
+			<neighbor army="true" fleet="false">SWI</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="NAP">
+		<country>ITA</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">APU</neighbor>
+			<neighbor army="true" fleet="true">ROM</neighbor>
+			<neighbor army="false" fleet="true">ION</neighbor>
+			<neighbor army="false" fleet="true">TYN</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="NAT">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NRG</neighbor>
+			<neighbor army="false" fleet="true">CLY</neighbor>
+			<neighbor army="false" fleet="true">LVP</neighbor>
+			<neighbor army="false" fleet="true">IRI</neighbor>
+			<neighbor army="false" fleet="true">MID</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="NAF">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">MID</neighbor>
+			<neighbor army="false" fleet="true">WES</neighbor>
+			<neighbor army="true" fleet="true">TUN</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="NTH">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NRG</neighbor>
+			<neighbor army="false" fleet="true">NWY</neighbor>
+			<neighbor army="false" fleet="true">SKA</neighbor>
+			<neighbor army="false" fleet="true">DEN</neighbor>
+			<neighbor army="false" fleet="true">HEL</neighbor>
+			<neighbor army="false" fleet="true">HOL</neighbor>
+			<neighbor army="false" fleet="true">BEL</neighbor>
+			<neighbor army="false" fleet="true">ENG</neighbor>
+			<neighbor army="false" fleet="true">LON</neighbor>
+			<neighbor army="false" fleet="true">YOR</neighbor>
+			<neighbor army="false" fleet="true">EDI</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="NWY">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NRG</neighbor>
+			<neighbor army="false" fleet="true">BAR</neighbor>
+			<neighbor army="true" fleet="false">STP</neighbor>
+			<neighbor army="false" fleet="true">STPN</neighbor>
+			<neighbor army="true" fleet="false">FIN</neighbor>
+			<neighbor army="true" fleet="true">SWE</neighbor>
+			<neighbor army="false" fleet="true">SKA</neighbor>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="NRG">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NAT</neighbor>
+			<neighbor army="false" fleet="true">CLY</neighbor>
+			<neighbor army="false" fleet="true">EDI</neighbor>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+			<neighbor army="false" fleet="true">BAR</neighbor>
+			<neighbor army="false" fleet="true">NWY</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="PAR">
+		<country>FRA</country>
+		<supply>true</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">BRE</neighbor>
+			<neighbor army="true" fleet="false">PIC</neighbor>
+			<neighbor army="true" fleet="false">BUR</neighbor>
+			<neighbor army="true" fleet="false">GAS</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="PIC">
+		<country>FRA</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">ENG</neighbor>
+			<neighbor army="true" fleet="true">BEL</neighbor>
+			<neighbor army="true" fleet="false">BUR</neighbor>
+			<neighbor army="true" fleet="false">PAR</neighbor>
+			<neighbor army="true" fleet="true">BRE</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="PIE">
+		<country>ITA</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">MAR</neighbor>
+			<neighbor army="true" fleet="false">SWI</neighbor>
+			<neighbor army="true" fleet="false">TYR</neighbor>
+			<neighbor army="true" fleet="false">VEN</neighbor>
+			<neighbor army="true" fleet="true">TUS</neighbor>
+			<neighbor army="false" fleet="true">GOL</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="POR">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">SPA</neighbor>
+			<neighbor army="false" fleet="true">SPAN</neighbor>
+			<neighbor army="false" fleet="true">SPAS</neighbor>
+			<neighbor army="false" fleet="true">MID</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="PRU">
+		<country>GER</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">LVN</neighbor>
+			<neighbor army="true" fleet="false">WAR</neighbor>
+			<neighbor army="true" fleet="false">SIL</neighbor>
+			<neighbor army="true" fleet="true">BER</neighbor>
+			<neighbor army="false" fleet="true">BAL</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="ROM">
+		<country>ITA</country>
+		<supply>TRUE</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">TUS</neighbor>
+			<neighbor army="true" fleet="false">VEN</neighbor>
+			<neighbor army="true" fleet="false">APU</neighbor>
+			<neighbor army="true" fleet="true">NAP</neighbor>
+			<neighbor army="false" fleet="true">TYN</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="RUH">
+		<country>GER</country>
+		<supply>false</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">BEL</neighbor>
+			<neighbor army="true" fleet="false">HOL</neighbor>
+			<neighbor army="true" fleet="false">KIE</neighbor>
+			<neighbor army="true" fleet="false">MUN</neighbor>
+			<neighbor army="true" fleet="false">BUR</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="RUM">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">UKR</neighbor>
+			<neighbor army="true" fleet="true">SEV</neighbor>
+			<neighbor army="false" fleet="true">BLA</neighbor>
+			<neighbor army="true" fleet="false">BUL</neighbor>
+			<neighbor army="false" fleet="true">BULE</neighbor>
+			<neighbor army="true" fleet="false">SER</neighbor>
+			<neighbor army="true" fleet="false">BUD</neighbor>
+			<neighbor army="true" fleet="false">GAL</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="SER">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">TRI</neighbor>
+			<neighbor army="true" fleet="false">BUD</neighbor>
+			<neighbor army="true" fleet="false">RUM</neighbor>
+			<neighbor army="true" fleet="false">BUL</neighbor>
+			<neighbor army="true" fleet="false">GRE</neighbor>
+			<neighbor army="true" fleet="false">ALB</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="SEV">
+		<country>RUS</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">MOS</neighbor>
+			<neighbor army="true" fleet="true">ARM</neighbor>
+			<neighbor army="false" fleet="true">BLA</neighbor>
+			<neighbor army="true" fleet="true">RUM</neighbor>
+			<neighbor army="true" fleet="false">UKR</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="SIL">
+		<country>GER</country>
+		<supply>false</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">BER</neighbor>
+			<neighbor army="true" fleet="false">PRU</neighbor>
+			<neighbor army="true" fleet="false">WAR</neighbor>
+			<neighbor army="true" fleet="false">GAL</neighbor>
+			<neighbor army="true" fleet="false">BOH</neighbor>
+			<neighbor army="true" fleet="false">MUN</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="SKA">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+			<neighbor army="false" fleet="true">NWY</neighbor>
+			<neighbor army="false" fleet="true">SWE</neighbor>
+			<neighbor army="false" fleet="true">DEN</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="SMY">
+		<country>TUR</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">SYR</neighbor>
+			<neighbor army="false" fleet="true">EAS</neighbor>
+			<neighbor army="false" fleet="true">AEG</neighbor>
+			<neighbor army="true" fleet="true">CON</neighbor>
+			<neighbor army="true" fleet="false">ANK</neighbor>
+			<neighbor army="true" fleet="false">ARM</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="SPA">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">GAS</neighbor>
+			<neighbor army="true" fleet="false">MAR</neighbor>
+			<neighbor army="true" fleet="false">WES</neighbor>
+			<neighbor army="true" fleet="false">POR</neighbor>
+		</neighbors>
+		<exclusives>
+			<exclusive>SPAN</exclusive>
+			<exclusive>SPAS</exclusive>
+		</exclusives>
+	</territory>
+	<territory name="SPAN">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">GAS</neighbor>
+			<neighbor army="false" fleet="true">MID</neighbor>
+			<neighbor army="false" fleet="true">POR</neighbor>
+		</neighbors>
+		<exclusives>
+			<exclusive>SPA</exclusive>
+			<exclusive>SPAS</exclusive>
+		</exclusives>
+	</territory>
+	<territory name="SPAS">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">GOL</neighbor>
+			<neighbor army="false" fleet="true">WES</neighbor>
+			<neighbor army="false" fleet="true">MID</neighbor>
+			<neighbor army="false" fleet="true">POR</neighbor>
+		</neighbors>
+		<exclusives>
+			<exclusive>SPA</exclusive>
+			<exclusive>SPAN</exclusive>
+		</exclusives>
+	</territory>
+	<territory name="STP">
+		<country>RUS</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">NWY</neighbor>
+			<neighbor army="true" fleet="false">FIN</neighbor>
+			<neighbor army="true" fleet="false">LVN</neighbor>
+			<neighbor army="true" fleet="false">MOS</neighbor>
+		</neighbors>
+		<exclusives>
+			<exclusive>STPN</exclusive>
+			<exclusive>STPS</exclusive>
+		</exclusives>
+	</territory>
+	<territory name="STPN">
+		<country>RUS</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">BAR</neighbor>
+			<neighbor army="false" fleet="true">NWY</neighbor>
+		</neighbors>
+		<exclusives>
+			<exclusive>STP</exclusive>
+			<exclusive>STPS</exclusive>
+		</exclusives>
+	</territory>
+	<territory name="STPS">
+		<country>RUS</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">FIN</neighbor>
+			<neighbor army="false" fleet="true">BOT</neighbor>
+			<neighbor army="false" fleet="true">LVN</neighbor>
+		</neighbors>
+		<exclusives>
+			<exclusive>STP</exclusive>
+			<exclusive>STPN</exclusive>
+		</exclusives>
+	</territory>
+	<territory name="SWE">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">NWY</neighbor>
+			<neighbor army="true" fleet="true">FIN</neighbor>
+			<neighbor army="false" fleet="true">BOT</neighbor>
+			<neighbor army="false" fleet="true">BAL</neighbor>
+			<neighbor army="true" fleet="true">DEN</neighbor>
+			<neighbor army="false" fleet="true">SKA</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="SWI">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>land</type>
+		<passable>
+			<army>false</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="false">BUR</neighbor>
+			<neighbor army="false" fleet="false">MUN</neighbor>
+			<neighbor army="false" fleet="false">TYR</neighbor>
+			<neighbor army="false" fleet="false">PIE</neighbor>
+			<neighbor army="false" fleet="false">MAR</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="SYR">
+		<country>TUR</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">SMY</neighbor>
+			<neighbor army="true" fleet="false">ARM</neighbor>
+			<neighbor army="false" fleet="true">EAS</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="TRI">
+		<country>AUS</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">VIE</neighbor>
+			<neighbor army="true" fleet="false">BUD</neighbor>
+			<neighbor army="true" fleet="false">SER</neighbor>
+			<neighbor army="true" fleet="true">ALB</neighbor>
+			<neighbor army="false" fleet="true">ADR</neighbor>
+			<neighbor army="true" fleet="true">VEN</neighbor>
+			<neighbor army="true" fleet="false">TYR</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="TUN">
+		<country>NON</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">ION</neighbor>
+			<neighbor army="false" fleet="true">TYN</neighbor>
+			<neighbor army="false" fleet="true">WES</neighbor>
+			<neighbor army="true" fleet="true">NAF</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="TUS">
+		<country>ITA</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">PIE</neighbor>
+			<neighbor army="true" fleet="false">VEN</neighbor>
+			<neighbor army="true" fleet="true">ROM</neighbor>
+			<neighbor army="true" fleet="false">TYN</neighbor>
+			<neighbor army="false" fleet="true">GOL</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="TYR">
+		<country>AUS</country>
+		<supply>false</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">SWI</neighbor>
+			<neighbor army="true" fleet="false">MUN</neighbor>
+			<neighbor army="true" fleet="false">BOH</neighbor>
+			<neighbor army="true" fleet="false">VIE</neighbor>
+			<neighbor army="true" fleet="false">TRI</neighbor>
+			<neighbor army="true" fleet="false">VEN</neighbor>
+			<neighbor army="true" fleet="false">PIE</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="TYN">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">TUS</neighbor>
+			<neighbor army="false" fleet="true">ROM</neighbor>
+			<neighbor army="false" fleet="true">NAP</neighbor>
+			<neighbor army="false" fleet="true">ION</neighbor>
+			<neighbor army="false" fleet="true">TUN</neighbor>
+			<neighbor army="false" fleet="true">WES</neighbor>
+			<neighbor army="false" fleet="true">GOL</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="UKR">
+		<country>RUS</country>
+		<supply>false</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">WAR</neighbor>
+			<neighbor army="true" fleet="false">MOS</neighbor>
+			<neighbor army="true" fleet="false">SEV</neighbor>
+			<neighbor army="true" fleet="false">RUM</neighbor>
+			<neighbor army="true" fleet="false">GAL</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="VEN">
+		<country>ITA</country>
+		<supply>true</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">TYR</neighbor>
+			<neighbor army="true" fleet="true">TRI</neighbor>
+			<neighbor army="false" fleet="true">ADR</neighbor>
+			<neighbor army="true" fleet="true">APU</neighbor>
+			<neighbor army="true" fleet="false">ROM</neighbor>
+			<neighbor army="true" fleet="false">TUS</neighbor>
+			<neighbor army="true" fleet="false">PIE</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="VIE">
+		<country>AUS</country>
+		<supply>true</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">BOH</neighbor>
+			<neighbor army="true" fleet="false">GAL</neighbor>
+			<neighbor army="true" fleet="false">BUD</neighbor>
+			<neighbor army="true" fleet="false">TRI</neighbor>
+			<neighbor army="true" fleet="false">TYR</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="WAL">
+		<country>ENG</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="true">LVP</neighbor>
+			<neighbor army="true" fleet="false">YOR</neighbor>
+			<neighbor army="true" fleet="true">LON</neighbor>
+			<neighbor army="false" fleet="true">ENG</neighbor>
+			<neighbor army="false" fleet="true">IRI</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="WAR">
+		<country>RUS</country>
+		<supply>true</supply>
+		<type>land</type>
+		<passable>
+			<army>true</army>
+			<fleet>false</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="true" fleet="false">LVN</neighbor>
+			<neighbor army="true" fleet="false">MOS</neighbor>
+			<neighbor army="true" fleet="false">UKR</neighbor>
+			<neighbor army="true" fleet="false">GAL</neighbor>
+			<neighbor army="true" fleet="false">SIL</neighbor>
+			<neighbor army="true" fleet="false">PRU</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="WES">
+		<country>NON</country>
+		<supply>false</supply>
+		<type>water</type>
+		<passable>
+			<army>false</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">MID</neighbor>
+			<neighbor army="false" fleet="true">SPAS</neighbor>
+			<neighbor army="false" fleet="true">GOL</neighbor>
+			<neighbor army="false" fleet="true">TYN</neighbor>
+			<neighbor army="false" fleet="true">TUN</neighbor>
+			<neighbor army="false" fleet="true">NAF</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+	<territory name="YOR">
+		<country>ENG</country>
+		<supply>false</supply>
+		<type>coast</type>
+		<passable>
+			<army>true</army>
+			<fleet>true</fleet>
+		</passable>
+		<neighbors>
+			<neighbor army="false" fleet="true">NTH</neighbor>
+			<neighbor army="true" fleet="true">LON</neighbor>
+			<neighbor army="true" fleet="false">WAL</neighbor>
+			<neighbor army="true" fleet="false">LVP</neighbor>
+			<neighbor army="true" fleet="true">EDI</neighbor>
+		</neighbors>
+		<exclusives/>
+	</territory>
+</territories>

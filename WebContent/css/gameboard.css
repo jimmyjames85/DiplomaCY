@@ -1,0 +1,49 @@
+@CHARSET "ISO-8859-1";
+
+.gamemap
+{
+	  background-image:url('../images/diplomacyGameMap.png');
+	  background-size: 1728px 1478px; /* 1152/965 ratio */
+	  background-repeat: no-repeat;
+	  color: red;
+	  margin: 3%;
+	  width: 1728px;
+	  height: 1478px;
+}
+.actionInput
+{
+	border: 2px solid;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	float: left
+}
+.actions
+{
+	border: 2px solid;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	float: left
+}
+.pendingOrders
+{
+	border: 2px solid;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	float: left
+}
+#refreshButton
+{
+	position: relative;
+	right:    0;
+	bottom:   0;
+}
+#chat{
+	border: 2px solid;
+	position: relative;
+	width: 450px;
+	height: 200px;
+	float: left
+}

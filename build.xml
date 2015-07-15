@@ -1,0 +1,49 @@
+<project name="DiplomaCY">
+
+    <property name="context" value="local"/>
+    <property name="context.files.dir" value="./contextFiles"/>
+    <property name="web.content.dir" value="WebContent"/>
+    <property name="web.inf.dir" value = "WebContent/WEB-INF"/>
+
+    <property name="tomcat.base.dir" value="C:\apache-tomcat-7.0.63"/>
+    <!--property name="tomcat.home" value="${env.CATALINA_HOME}"/>
+    <property name="hudson.build.number" value="${env.BUILD_NUMBER}"/-->
+
+    <property name="deploy.dir" value="deploy"/>
+    <property name="lib.dir" value="WebContent/WEB-INF/lib"/>
+    <property name="src.dir" value="src"/>
+    <property name="classes.dir" value="WebContent/WEB-INF/classes"/>
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar"/>
+        <fileset dir="${tomcat.base.dir}/lib" includes="**/*.jar"/>
+    </path>
+
+    <taskdef name="groovyc" classname="org.codehaus.groovy.ant.Groovyc" classpathref="classpath"/>
+
+    <target name="compile">
+        <mkdir dir="${classes.dir}"/>
+        <groovyc srcdir="${src.dir}" destdir="${classes.dir}">
+            <classpath refid="classpath"/>
+            <javac/>
+        </groovyc>
+    </target>
+
+    <target name="deployContextFiles">
+        <copy todir="${web.inf.dir}">
+            <fileset dir="${context.files.dir}/${context}" includes="**/*"/>
+        </copy>
+    </target>
+
+    <target name="compileWar" depends="compile, deployContextFiles">
+        <jar destfile="${deploy.dir}/${ant.project.name}.war" basedir="WebContent"/>
+    </target>
+
+    <target name="deployHotSwappable" depends="compile, deployContextFiles">
+        <copy todir="${deploy.dir}">
+            <fileset dir="${web.content.dir}" includes="**/*"/>
+        </copy>
+    </target>
+
+
+</project>

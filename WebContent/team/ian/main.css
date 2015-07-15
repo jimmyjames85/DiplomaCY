@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+.nav a {
+  color: #5a5a5a;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://www.wizards.com/global/images/ah_prod_diplomacy_pic3_en.jpg');
+  height: 800px;
+  width: 1920px;
+  background-repeat: no-repeat;
+  background-size: 960px 800px;
+  background-color: #c0c0c0;
+}
+
+.jumbotron a {
+	margin-right: 500px;
+}
+
+.learn-more {
+  background-color: #c0c0c0;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #c0c0c0;
+}
+body {
+	background-color: #c0c0c0;
+	
+}

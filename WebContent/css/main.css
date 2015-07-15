@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+
+a {
+  color: #5a5a5a;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+body {
+	background-color: #c0c0c0;
+}

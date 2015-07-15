@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+.gamemap
+{
+	  background-image:url('../images/diplomacyGameMap.png');
+	  background-size: 2304px 1930px; /* 1152/965 ratio */
+	  background-repeat: no-repeat;
+	  color: red;
+	  margin: 3%;
+	  width: 2500px;
+	  height: 2000px;
+}
